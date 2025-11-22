@@ -1,5 +1,7 @@
 # Formats
 
+Our format string templates for all the supported formats.
+
 ## Lyrics
 
 ### (lyrics)::[default]:
@@ -199,3 +201,4 @@ tiktok,{title} tiktok,trending tiktok,tiktok songs
 ```ssh
 slowed tiktok songs,{title} slowed down tiktok version
 ```
+
