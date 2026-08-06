@@ -7,19 +7,19 @@ Our format string templates for all the supported formats.
 ### (lyrics)::[default]:
 
 ```ssh
-{artist} {title},{artist} {title} lyrics,{title} lyrics,{title} {artist} lyrics,lyrics {title},{artist} lyrics {title},{title},{artist},{title} {artist},lyrics
+{artist} {title},{artist} {title} lyrics,{title} lyrics,{title} {artist} lyrics,lyrics {title},{title},{artist},{title} {artist},lyrics
 ```
 
 ### (lyrics)::[feature-1]:
 
 ```ssh
-{firstFeature},{firstFeature} {title} lyrics,lyrics {firstFeature} {title},{firstFeature} lyrics,{firstFeature} {title},{artist} {firstFeature},{title} {firstFeature}
+{firstFeature},{firstFeature} {title} lyrics,{firstFeature} lyrics,{firstFeature} {title},{artist} {firstFeature},{title} {firstFeature}
 ```
 
 ### (lyrics)::includes[default]&&[feature-1]:
 
 ```ssh
-{artist} {title},{artist} {title} lyrics,{title} lyrics,{title} {artist} lyrics,lyrics {title},{artist} lyrics {title},{title},{artist},{title} {artist},lyrics,{firstFeature},{firstFeature} {title} lyrics,lyrics {firstFeature} {title},{firstFeature} lyrics,{firstFeature} {title},{artist} {firstFeature},{title} {firstFeature}
+{artist} {title},{artist} {title} lyrics,{title} lyrics,{title} {artist} lyrics,lyrics {title},{title},{artist},{title} {artist},lyrics,{firstFeature},{firstFeature} {title} lyrics,{firstFeature} lyrics,{firstFeature} {title},{artist} {firstFeature},{title} {firstFeature}
 ```
 
 ### (lyrics)::[feature-2]:
@@ -31,7 +31,7 @@ Our format string templates for all the supported formats.
 ### (lyrics)::includes[default]&&[feature-1]&&[feature-2]:
 
 ```ssh
-{artist} {title},{artist} {title} lyrics,{title} lyrics,{title} {artist} lyrics,lyrics {title},{artist} lyrics {title},{title},{artist},{title} {artist},lyrics,{firstFeature},{firstFeature} {title} lyrics,lyrics {firstFeature} {title},{firstFeature} lyrics,{firstFeature} {title},{artist} {firstFeature},{title} {firstFeature},{secondFeature},{secondFeature} {title} lyrics,{secondFeature} {title},{artist} {secondFeature},{title} {secondFeature}
+{artist} {title},{artist} {title} lyrics,{title} lyrics,{title} {artist} lyrics,lyrics {title},{title},{artist},{title} {artist},lyrics,{firstFeature},{firstFeature} {title} lyrics,{firstFeature} lyrics,{firstFeature} {title},{artist} {firstFeature},{title} {firstFeature},{secondFeature},{secondFeature} {title} lyrics,{secondFeature} {title},{artist} {secondFeature},{title} {secondFeature}
 ```
 
 ### (lyrics)::[feature-3]:
@@ -43,7 +43,7 @@ Our format string templates for all the supported formats.
 ### (lyrics)::includes[default]&&[feature-1]&&[feature-2]&&[feature-3]:
 
 ```ssh
-{artist} {title},{artist} {title} lyrics,{title} lyrics,{title} {artist} lyrics,lyrics {title},{artist} lyrics {title},{title},{artist},{title} {artist},lyrics,{firstFeature},{firstFeature} {title} lyrics,lyrics {firstFeature} {title},{firstFeature} lyrics,{firstFeature} {title},{artist} {firstFeature},{title} {firstFeature},{secondFeature},{secondFeature} {title} lyrics,{secondFeature} {title},{artist} {secondFeature},{title} {secondFeature},{thirdFeature},{thirdFeature} {title} lyrics,{thirdFeature} {title},{artist} {thirdFeature},{title} {thirdFeature}
+{artist} {title},{artist} {title} lyrics,{title} lyrics,{title} {artist} lyrics,lyrics {title},{title},{artist},{title} {artist},lyrics,{firstFeature},{firstFeature} {title} lyrics,{firstFeature} lyrics,{firstFeature} {title},{artist} {firstFeature},{title} {firstFeature},{secondFeature},{secondFeature} {title} lyrics,{secondFeature} {title},{artist} {secondFeature},{title} {secondFeature},{thirdFeature},{thirdFeature} {title} lyrics,{thirdFeature} {title},{artist} {thirdFeature},{title} {thirdFeature}
 ```
 
 ### (lyrics)::[@tiktok=true@]:
@@ -57,7 +57,7 @@ tiktok,{title} tiktok,trending tiktok,tiktok songs
 ### (bassboosted)::[default]
 
 ```ssh
-{artist},{title},{title} bass boosted,{title} bass boosted {artist},{title} {artist},{title} {artist} bass boosted,{artist} {title} bass boosted,{artist} {title},{artist} - {title},{artist} - {title} bass boosted,{title} {artist} bass boost,{artist} bass boosted,{title} bass boost,bass boost,bass boosted,bass boosted car playlist,bass boost car playlist
+{artist},{title},{title} bass boosted,{title} {artist},{title} {artist} bass boosted,{artist} {title} bass boosted,{artist} {title},{artist} - {title},{artist} - {title} bass boosted,{title} {artist} bass boost,{artist} bass boosted,{title} bass boost,bass boost,bass boosted,bass boosted car playlist,bass boost car playlist
 ```
 
 ### (bassboosted)::[feature-1]
@@ -69,7 +69,7 @@ tiktok,{title} tiktok,trending tiktok,tiktok songs
 ### (bassboosted)::includes[default]&&[feature-1]
 
 ```ssh
-{artist},{title},{title} bass boosted,{title} bass boosted {artist},{title} {artist},{title} {artist} bass boosted,{artist} {title} bass boosted,{artist} {title},{artist} - {title},{artist} - {title} bass boosted,{title} {artist} bass boost,{artist} bass boosted,{title} bass boost,bass boost,bass boosted,bass boosted car playlist,bass boost car playlist,{firstFeature},{firstFeature} {title} bass boosted
+{artist},{title},{title} bass boosted,{title} {artist},{title} {artist} bass boosted,{artist} {title} bass boosted,{artist} {title},{artist} - {title},{artist} - {title} bass boosted,{title} {artist} bass boost,{artist} bass boosted,{title} bass boost,bass boost,bass boosted,bass boosted car playlist,bass boost car playlist,{firstFeature},{firstFeature} {title} bass boosted
 ```
 
 ### (bassboosted)::[feature-2]
@@ -81,7 +81,7 @@ tiktok,{title} tiktok,trending tiktok,tiktok songs
 ### (bassboosted)::includes[default]&&[feature-1]&&[feature-2]
 
 ```ssh
-{artist},{title},{title} bass boosted,{title} bass boosted {artist},{title} {artist},{title} {artist} bass boosted,{artist} {title} bass boosted,{artist} {title},{artist} - {title},{artist} - {title} bass boosted,{title} {artist} bass boost,{artist} bass boosted,{title} bass boost,bass boost,bass boosted,bass boosted car playlist,bass boost car playlist,{firstFeature},{firstFeature} {title} bass boosted,{secondFeature},{secondFeature} {title} bass boosted
+{artist},{title},{title} bass boosted,{title} {artist},{title} {artist} bass boosted,{artist} {title} bass boosted,{artist} {title},{artist} - {title},{artist} - {title} bass boosted,{title} {artist} bass boost,{artist} bass boosted,{title} bass boost,bass boost,bass boosted,bass boosted car playlist,bass boost car playlist,{firstFeature},{firstFeature} {title} bass boosted,{secondFeature},{secondFeature} {title} bass boosted
 ```
 
 ### (bassboosted)::[feature-3]
@@ -93,7 +93,7 @@ tiktok,{title} tiktok,trending tiktok,tiktok songs
 ### (bassboosted)::includes[default]&&[feature-1]&&[feature-2]&&[feature-3]
 
 ```ssh
-{artist},{title},{title} bass boosted,{title} bass boosted {artist},{title} {artist},{title} {artist} bass boosted,{artist} {title} bass boosted,{artist} {title},{artist} - {title},{artist} - {title} bass boosted,{title} {artist} bass boost,{artist} bass boosted,{title} bass boost,bass boost,bass boosted,bass boosted car playlist,bass boost car playlist,{firstFeature},{firstFeature} {title} bass boosted,{secondFeature},{secondFeature} {title} bass boosted,{thirdFeature},{thirdFeature} {title} bass boosted
+{artist},{title},{title} bass boosted,{title} {artist},{title} {artist} bass boosted,{artist} {title} bass boosted,{artist} {title},{artist} - {title},{artist} - {title} bass boosted,{title} {artist} bass boost,{artist} bass boosted,{title} bass boost,bass boost,bass boosted,bass boosted car playlist,bass boost car playlist,{firstFeature},{firstFeature} {title} bass boosted,{secondFeature},{secondFeature} {title} bass boosted,{thirdFeature},{thirdFeature} {title} bass boosted
 ```
 
 ### (bassboosted)::[@tiktok=true@]
@@ -107,7 +107,7 @@ tiktok,{title} tiktok,trending tiktok,tiktok songs
 ### (nightcore)::[default]
 
 ```ssh
-{artist},{title},{title} nightcore,{title} sped up,{title} sped up {artist},{artist} {title},{artist} {title} sped up,{artist} nightcore,{artist} sped up,nightcore
+{artist},{title},{title} nightcore,{title} sped up,{artist} {title},{artist} {title} sped up,{artist} nightcore,{artist} sped up,nightcore
 ```
 
 ### (nightcore)::[feature-1]
@@ -119,7 +119,7 @@ tiktok,{title} tiktok,trending tiktok,tiktok songs
 ### (nightcore)::includes[default]&&[feature-1]
 
 ```ssh
-{artist},{title},{title} nightcore,{title} sped up,{title} sped up {artist},{artist} {title},{artist} {title} sped up,{artist} nightcore,{artist} sped up,nightcore,{firstFeature},{artist} {firstFeature},{firstFeature} {title},title {firstFeature}
+{artist},{title},{title} nightcore,{title} sped up,{artist} {title},{artist} {title} sped up,{artist} nightcore,{artist} sped up,nightcore,{firstFeature},{artist} {firstFeature},{firstFeature} {title},title {firstFeature}
 ```
 
 ### (nightcore)::[feature-2]
@@ -131,7 +131,7 @@ tiktok,{title} tiktok,trending tiktok,tiktok songs
 ### (nightcore)::includes[default]&&[feature-1]&&[feature-2]
 
 ```ssh
-{artist},{title},{title} nightcore,{title} sped up,{title} sped up {artist},{artist} {title},{artist} {title} sped up,{artist} nightcore,{artist} sped up,nightcore,{firstFeature},{artist} {firstFeature},{firstFeature} {title},title {firstFeature},{secondFeature},{artist} {secondFeature},{secondFeature} {title},title {secondFeature}
+{artist},{title},{title} nightcore,{title} sped up,{artist} {title},{artist} {title} sped up,{artist} nightcore,{artist} sped up,nightcore,{firstFeature},{artist} {firstFeature},{firstFeature} {title},title {firstFeature},{secondFeature},{artist} {secondFeature},{secondFeature} {title},title {secondFeature}
 ```
 
 ### (nightcore)::[feature-3]
@@ -143,7 +143,7 @@ tiktok,{title} tiktok,trending tiktok,tiktok songs
 ### (nightcore)::includes[default]&&[feature-1]&&[feature-2]&&[feature-3]
 
 ```ssh
-{artist},{title},{title} nightcore,{title} sped up,{title} sped up {artist},{artist} {title},{artist} {title} sped up,{artist} nightcore,{artist} sped up,nightcore,{firstFeature},{artist} {firstFeature},{firstFeature} {title},title {firstFeature},{secondFeature},{artist} {secondFeature},{secondFeature} {title},title {secondFeature},{thirdFeature},{artist} {thirdFeature},{thirdFeature} {title},title {thirdFeature}
+{artist},{title},{title} nightcore,{title} sped up,{artist} {title},{artist} {title} sped up,{artist} nightcore,{artist} sped up,nightcore,{firstFeature},{artist} {firstFeature},{firstFeature} {title},title {firstFeature},{secondFeature},{artist} {secondFeature},{secondFeature} {title},title {secondFeature},{thirdFeature},{artist} {thirdFeature},{thirdFeature} {title},title {thirdFeature}
 ```
 
 ### (nightcore)::[@tiktok=true@]
@@ -207,7 +207,7 @@ slowed tiktok songs,{title} slowed down tiktok version
 ### (letra)::[default]
 
 ```ssh
-{artist},{title},{artist} {title} letra,{artist} {title},{title} {artist},{title} letra,letra {title},letra {title} {artist},{artist} letra,{artist} letra {title},{title} letra {artist},letra {artist},{artist} - {title},{artist} - {title}
+{artist},{title},{artist} {title} letra,{artist} {title},{title} {artist},{title} letra,letra {title},{artist} letra,letra {artist},{artist} - {title},{artist} - {title}
 ```
 
 ### (letra)::[feature-1]
@@ -219,7 +219,7 @@ slowed tiktok songs,{title} slowed down tiktok version
 ### (letra)::includes[default]&&[feature-1]
 
 ```ssh
-{artist},{title},{artist} {title} letra,{artist} {title},{title} {artist},{title} letra,letra {title},letra {title} {artist},{artist} letra,{artist} letra {title},{title} letra {artist},letra {artist},{artist} - {title},{artist} - {title},{firstFeature} {title},{artist} {firstFeature} {title},{firstFeature} {title} letra,{title} {firstFeature},{artist} {firstFeature},{firstFeature} {artist},{firstFeature}
+{artist},{title},{artist} {title} letra,{artist} {title},{title} {artist},{title} letra,letra {title},{artist} letra,letra {artist},{artist} - {title},{artist} - {title},{firstFeature} {title},{artist} {firstFeature} {title},{firstFeature} {title} letra,{title} {firstFeature},{artist} {firstFeature},{firstFeature} {artist},{firstFeature}
 ```
 
 ### (letra)::[feature-2]
@@ -231,7 +231,7 @@ slowed tiktok songs,{title} slowed down tiktok version
 ### (letra)::includes[default]&&[feature-1]&&[feature-2]
 
 ```ssh
-{artist},{title},{artist} {title} letra,{artist} {title},{title} {artist},{title} letra,letra {title},letra {title} {artist},{artist} letra,{artist} letra {title},{title} letra {artist},letra {artist},{artist} - {title},{artist} - {title},{firstFeature} {title},{artist} {firstFeature} {title},{firstFeature} {title} letra,{title} {firstFeature},{artist} {firstFeature},{firstFeature} {artist},{firstFeature},{secondFeature},{secondFeature} {title} letra,{secondFeature} {title},{artist} {secondFeature},{title} {secondFeature}
+{artist},{title},{artist} {title} letra,{artist} {title},{title} {artist},{title} letra,letra {title},{artist} letra,letra {artist},{artist} - {title},{artist} - {title},{firstFeature} {title},{artist} {firstFeature} {title},{firstFeature} {title} letra,{title} {firstFeature},{artist} {firstFeature},{firstFeature} {artist},{firstFeature},{secondFeature},{secondFeature} {title} letra,{secondFeature} {title},{artist} {secondFeature},{title} {secondFeature}
 ```
 
 ### (letra)::[feature-3]
@@ -243,7 +243,7 @@ slowed tiktok songs,{title} slowed down tiktok version
 ### (letra)::includes[default]&&[feature-1]&&[feature-2]&&[feature-3]
 
 ```ssh
-{artist},{title},{artist} {title} letra,{artist} {title},{title} {artist},{title} letra,letra {title},letra {title} {artist},{artist} letra,{artist} letra {title},{title} letra {artist},letra {artist},{artist} - {title},{artist} - {title},{firstFeature} {title},{artist} {firstFeature} {title},{firstFeature} {title} letra,{title} {firstFeature},{artist} {firstFeature},{firstFeature} {artist},{firstFeature},{secondFeature},{secondFeature} {title} letra,{secondFeature} {title},{artist} {secondFeature},{title} {secondFeature},{thirdFeature},{thirdFeature} {title} letra,{thirdFeature} {title},{artist} {thirdFeature},{title} {thirdFeature}
+{artist},{title},{artist} {title} letra,{artist} {title},{title} {artist},{title} letra,letra {title},{artist} letra,letra {artist},{artist} - {title},{artist} - {title},{firstFeature} {title},{artist} {firstFeature} {title},{firstFeature} {title} letra,{title} {firstFeature},{artist} {firstFeature},{firstFeature} {artist},{firstFeature},{secondFeature},{secondFeature} {title} letra,{secondFeature} {title},{artist} {secondFeature},{title} {secondFeature},{thirdFeature},{thirdFeature} {title} letra,{thirdFeature} {title},{artist} {thirdFeature},{title} {thirdFeature}
 ```
 
 ### (letra)::[@tiktok=true@]
